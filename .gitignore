@@ -1,0 +1,45 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+_deps/
+
+# IDE
+.vscode/
+.idea/
+.claude
+.github/
+*.user
+*.suo
+
+# macOS
+.DS_Store
+
+.PROJECT_SPEC.md
+*.bin
+
+
+.clang-format
+.clang-tidy
+
+# Compiled objects
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Benchmark results (checked in manually after review)
+benchmarks/results_raw/
+
+# Training artifacts
+training/models/*.bin
+training/models/*.onnx

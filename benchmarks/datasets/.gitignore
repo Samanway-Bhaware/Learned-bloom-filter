@@ -1,0 +1,9 @@
+# Generated / downloaded dataset files — too large to commit.
+*.tsv
+*.csv
+*.txt
+# Except the generators and scripts themselves.
+!gen_uniform_int.py
+!fetch_words.sh
+!fetch_urls.sh
+!fetch_blocklist.sh

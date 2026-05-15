@@ -1,0 +1,6 @@
+# Ignore generated data files — regenerate with gen_words_en.sh.
+# Keep generator scripts, README, and this gitignore.
+*.tsv
+*.csv
+*.bin
+*.json
